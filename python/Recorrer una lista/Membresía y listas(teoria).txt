@@ -1,0 +1,31 @@
+Membresía y listas
+Ideas clave
+En Python, podemos verificar si un elemento está presente en una lista utilizando el operador in.
+El operador in devuelve True si el elemento está en la lista y False si no lo está.
+Podemos combinar el operador in con bucles para realizar verificaciones sobre múltiples elementos.
+Esta operación es útil para filtrar datos o verificar condiciones basadas en la presencia de elementos en una lista.
+Verificando membresía en listas
+En Python, el operador in nos permite verificar fácilmente si un elemento está presente en una lista. La sintaxis básica es:
+
+elemento in lista
+Esta expresión devuelve True si el elemento está en la lista y False si no lo está. Por ejemplo:
+
+frutas = ["manzana", "banana", "cereza", "dátil"]
+print("manzana" in frutas)  # True
+print("kiwi" in frutas)     # False
+Podemos combinar esto con un bucle para verificar múltiples elementos:
+
+frutas = ["manzana", "banana", "cereza", "dátil"]
+buscar = ["manzana", "kiwi", "cereza"]
+
+for fruta in buscar:
+    if fruta in frutas:
+        print(f"{fruta} está en la lista de frutas")
+    else:
+        print(f"{fruta} no está en la lista de frutas")
+Este código imprimirá:
+
+manzana está en la lista de frutas
+kiwi no está en la lista de frutas
+cereza está en la lista de frutas
+La verificación de membresía es útil en muchos escenarios, como filtrar datos, verificar condiciones o buscar elementos específicos en una colección de datos.
