@@ -1,0 +1,37 @@
+Sintaxis:
+
+sorted(iterable, key=None, reverse=False)
+
+Parámetros:
+
+iterable: La lista (o cualquier iterable) que se quiere ordenar.
+key (opcional): Función que define el criterio de ordenación (ej. len para ordenar por longitud).
+reverse (opcional, por defecto False): Si es True, ordena en orden descendente.
+
+Ejemplos:
+Ordenar una lista de números (ascendente)
+numeros = [5, 3, 8, 1, 2]
+print(sorted(numeros))  # [1, 2, 3, 5, 8]
+
+Ordenar en orden descendente
+
+print(sorted(numeros, reverse=True))  # [8, 5, 3, 2, 1]
+
+Ordenar una lista de cadenas alfabéticamente
+palabras = ["banana", "manzana", "pera", "uva"]
+print(sorted(palabras))  # ['banana', 'manzana', 'pera', 'uva']
+
+Ordenar por longitud de palabras
+print(sorted(palabras, key=len))  # ['uva', 'pera', 'banana', 'manzana']
+Diferencia entre sorted() y sort()
+Método	  Modifica la lista original	Retorna una nueva lista
+sorted()	❌ No	                      ✅ Sí
+sort()	  ✅ Sí	                      ❌ No (modifica en su lugar)
+
+
+Ejemplo con sort():
+numeros = [5, 3, 8, 1, 2]
+numeros.sort()
+print(numeros)  # [1, 2, 3, 5, 8] (lista modificada)
+✅ Conclusión:
+Usa sorted() si no quieres modificar la lista original. Usa sort() si quieres ordenar la lista en su lugar.
