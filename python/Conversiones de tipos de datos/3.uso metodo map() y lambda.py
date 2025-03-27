@@ -26,8 +26,8 @@ print(list(mayusculas))  # ['HOLA', 'MUNDO', 'PYTHON']
 
 
 #Ejemplo 3: Sumar dos listas elemento a elemento
-Si map() recibe dos listas, aplicará la función a los pares de elementos de ambas listas.
-  lista1 = [1, 2, 3]
+#Si map() recibe dos listas, aplicará la función a los pares de elementos de ambas listas.
+lista1 = [1, 2, 3]
 lista2 = [4, 5, 6]
 suma = map(lambda x, y: x + y, lista1, lista2)
 print(list(suma))  # [5, 7, 9]
