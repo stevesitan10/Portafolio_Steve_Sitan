@@ -17,3 +17,10 @@ map() se usa cuando quieres aplicar una función a cada elemento de una lista y 
 
 
 ![image](https://github.com/user-attachments/assets/b57f1d14-5d0d-451e-9132-dc4757b8dfc1)
+
+
+
+🔹 Uso filter() con startswith() y endswith()
+Usa startswith() para prefijos y endswith() para sufijos. Son muy útiles para manipular textos en Python.
+
+![image](https://github.com/user-attachments/assets/893edff0-7103-4029-b14f-8214ab8d3195)
