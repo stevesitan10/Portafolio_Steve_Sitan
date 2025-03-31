@@ -1,3 +1,16 @@
+_____________________________________________________________
+metodos utilizados:
+
+🔹 isinstance(varieble, tipo). devuelde TRUE or FALSE
+
+print(isinstance(5, int))  # Muestra: True
+print(isinstance([1, 2], list))  # Muestra: True
+_____________________________________________________________
+
+🔹El método enumerate() en Python se usa para recorrer una secuencia (como listas, tuplas o cadenas) y obtener tanto el índice como el valor de cada elemento en un bucle.
+
+sintaxis= enumerate(iterable, start=0)
+_______________________________________________________________
 🔹 ¿Qué son las sublistas en Python?
 Una sublista es simplemente una lista dentro de otra lista. Se usa cuando queremos organizar datos en grupos dentro de una estructura más grande.
 
