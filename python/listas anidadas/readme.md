@@ -38,6 +38,8 @@ Otra manera eficiente de recorrer y extraer elementos de una lista anidada:
 
 ![image](https://github.com/user-attachments/assets/87f11fb8-2a3a-4a43-9d66-c26f34aa8cab)
 
+
+ejemplo de uso con listas de compresion 
 ![image](https://github.com/user-attachments/assets/9dc9823b-113c-41aa-a0b5-a063f3440622)
 
 
