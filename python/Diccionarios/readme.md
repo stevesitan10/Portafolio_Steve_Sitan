@@ -38,6 +38,9 @@ print(estudiante.get("llave que no existe", "Valor por defecto")) # Valor por de
 🔥 Funciones útiles
 ![image](https://github.com/user-attachments/assets/8662bda5-c41b-44a1-9d5a-1f0900d5e19b)
 
+![image](https://github.com/user-attachments/assets/07223ae9-4021-4909-8402-2753f671f136)
+
+
 ⚡ Ejemplo práctico: Contar palabras en un texto
 
 ![image](https://github.com/user-attachments/assets/39f284a1-0b42-4542-94ff-9a13660e7e6d)
