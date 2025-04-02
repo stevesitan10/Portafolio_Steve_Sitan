@@ -14,9 +14,8 @@
 #palabras = ['hola', 'mundo', 'python']
 #resultado_map = map(str.upper, palabras)
 #print(list(resultado_map))  # Imprime: ['HOLA', 'MUNDO', 'PYTHON']
-
 def formatear_nombres(lista):
-    return list(map(str.lower,lista))
+    return list(map(str.capitalize,lista))
 
 print(formatear_nombres( ["ANA", "juan", "MaRia", "CARLOS"]))
 print(formatear_nombres(["PEDRO", "luisa", "FernAnDO", "sofia"]))
