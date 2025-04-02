@@ -30,7 +30,7 @@ Este proyecto fue creado como parte de mi proceso de aprendizaje en programació
 		
 -	copy(): Devuelve una copia superficial de la lista.
 
-#	Métodos de cadenas
+#	Métodos de cadenas. **Important** cuando se usa map, no se coloca parentesis
 	
 -	lower(): Convierte todos los caracteres en minúsculas.
 	
