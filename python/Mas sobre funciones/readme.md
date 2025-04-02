@@ -1,3 +1,40 @@
+# Creación y uso de módulos
+Supongamos que tenemos un archivo llamado operaciones.py con las siguientes funciones:
+````
+# operaciones.py
+def sumar(a, b):
+    return a + b
+
+def restar(a, b):
+    return a - b
+
+````
+Podemos usar este módulo en otro archivo de la siguiente manera:
+
+````
+# main.py
+import operaciones # Importamos el módulo que acabamos de crear
+
+print(operaciones.sumar(5, 3))  # Muestra: 8
+print(operaciones.restar(10, 4))  # Muestra: 6
+
+````
+También podemos importar solo las funciones que necesitamos:
+
+````
+# main.py
+from operaciones import sumar # Desde el módulo operaciones importa sumar
+
+print(sumar(5, 3))  # Muestra: 8
+
+````
+Adicionalmente, podemos importar un módulo con un alias:
+````
+# main.py
+import operaciones as ops # Importamos el módulo operaciones con el alias ops
+
+print(ops.sumar(5, 3))  # Muestra: 8
+````
 
 
 # Creación de variables locales sin global
