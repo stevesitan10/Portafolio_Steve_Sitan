@@ -18,7 +18,7 @@ Nota: Este comportamiento puede ser confuso si no se tiene en cuenta, por lo que
 En Python, *args permite a una función aceptar cualquier número de argumentos. Estos argumentos se empaquetan en una tupla dentro de la función.
 
 Ejemplo:
-```
+``` 
 def mostrar_argumentos(*args):
     print("Argumentos recibidos:")
     for arg in args:
@@ -30,9 +30,27 @@ mostrar_argumentos("Uno", "Dos", "Tres", "Cuatro")
 ```
 
 
-|Módulo|Versión|Descripción|
-|--- |--- |--- |
+# Kwargs
+Ideas clave
+- kwargs es abreviatura de "keyword arguments" (argumentos de palabra clave).
+- kwargs permite pasar un número variable de argumentos de palabra clave a una función.
+- Es similar a *args, pero en lugar de una tupla, kwargs crea un diccionario.
+- Es comúnmente utilizado para funciones que aceptan muchos argumentos opcionales como por ejemplo funciones para crear configuraciones.
 
--------
+## Ejemplo de uso de **kwargs
+Veamos un ejemplo sencillo de cómo usar **kwargs en una función:
 
+```
+def funcion(**kwargs):
+    print(kwargs) 
+
+funcion(a=1, b=2, c=3) # Muestra: {'a': 1, 'b': 2, 'c': 3}
+funcion(nombre="Juan", edad=30) # Muestra: {'nombre': 'Juan', 'edad': 30}
+
+````
+
+# Uso de kwargs para configuraciones
+Un ejemplo común de uso de **kwargs es para configuraciones. Podemos tener una función que configure una aplicación con valores predeterminados y permita sobrescribirlos con argumentos de palabra clave. Por ejemplo:
+
+![image](https://github.com/user-attachments/assets/71cb7444-fe2f-4d82-903d-9a09962f22de)
 
