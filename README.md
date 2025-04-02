@@ -1,6 +1,9 @@
 # Test Repositorio
 
 Este repositorio contiene ejercicios y pruebas de programación en diferentes tecnologías. Su objetivo es servir como un espacio de experimentación y aprendizaje en el desarrollo de software.
+## Objetivo
+
+Este proyecto fue creado como parte de mi proceso de aprendizaje en programación y desarrollo de software. Aquí podrás encontrar ejemplos prácticos y pruebas de código que reflejan mi experiencia con diferentes lenguajes y herramientas.
 
 ## Contenido 
 
@@ -151,9 +154,7 @@ Este repositorio contiene ejercicios y pruebas de programación en diferentes te
 
 
 
-## Objetivo
 
-Este proyecto fue creado como parte de mi proceso de aprendizaje en programación y desarrollo de software. Aquí podrás encontrar ejemplos prácticos y pruebas de código que reflejan mi experiencia con diferentes lenguajes y herramientas.
 
 ## Tecnologías utilizadas
 
