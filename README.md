@@ -149,7 +149,6 @@ Este repositorio contiene ejercicios y pruebas de programación en diferentes te
 	
 -	reduce(function, iterable): Aplica una función acumulativa a los elementos del iterable (requiere importar functools).
 
-![image](https://github.com/user-attachments/assets/90aad38b-6a3a-4b4b-afb5-4efce1d8c7c3)
 
 
 ## Objetivo
