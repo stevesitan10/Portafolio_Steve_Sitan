@@ -1,10 +1,5 @@
 
 
-# Uso de variables globales en funciones
-En Python, las variables definidas fuera de cualquier función son globales y pueden ser accedidas desde dentro de las funciones. Sin embargo, para modificarlas dentro de una función, se debe declarar explícitamente que se está usando la variable global. Por ejemplo:
-
-![image](https://github.com/user-attachments/assets/65b16923-0155-40b8-abca-15d329be42b0)
-
 # Creación de variables locales sin global
 En Python, cuando asignamos un valor a una variable dentro de una función sin usar la palabra clave global, se crea una nueva variable local, incluso si existe una variable global con el mismo nombre.
 
@@ -53,4 +48,38 @@ funcion(nombre="Juan", edad=30) # Muestra: {'nombre': 'Juan', 'edad': 30}
 Un ejemplo común de uso de **kwargs es para configuraciones. Podemos tener una función que configure una aplicación con valores predeterminados y permita sobrescribirlos con argumentos de palabra clave. Por ejemplo:
 
 ![image](https://github.com/user-attachments/assets/71cb7444-fe2f-4d82-903d-9a09962f22de)
+
+# ¿Qué es lambda en Python?
+Una función lambda en Python es una función anónima (sin nombre) que se define en una sola línea con la palabra clave lambda.
+
+Sintaxis
+
+```
+lambda argumentos: expresión
+
+```
+![image](https://github.com/user-attachments/assets/4c0ffdf4-5fce-419b-bb55-903ecb969945)
+
+# Ejemplos prácticos
+# ✅ Usar lambda en map()
+
+![image](https://github.com/user-attachments/assets/e8bcf859-8e73-4bc7-b17c-240dfcd959e6)
+
+map() aplica la función lambda a cada elemento de la lista.
+
+# ✅ Usar lambda en filter()
+
+![image](https://github.com/user-attachments/assets/c2841336-4916-4997-9aaf-96de048f48a4)
+
+filter() usa la función lambda para seleccionar los números pares.
+
+# ✅ Ordenar con lambda en sorted()
+
+![image](https://github.com/user-attachments/assets/f087373b-c933-4e46-b65e-45db922fa78b)
+
+# Cuándo usar lambda
+- ✅ Cuando necesitas una función corta y simple.
+- ✅ Para pasar funciones a map(), filter(), sorted(), etc.
+- ❌ No cuando la función tiene múltiples líneas o lógica compleja (usa def en su lugar).
+
 
