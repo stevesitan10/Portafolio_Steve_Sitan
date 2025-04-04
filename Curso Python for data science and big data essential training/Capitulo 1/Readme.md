@@ -25,12 +25,24 @@
 - time.monotonic_ns()    # Como monotonic() pero devuelve nanosegundos
 - time.process_time_ns() # Como process_time() pero devuelve nanosegundos
 
-## Información de zona horaria
-- time.timezone  # Desplazamiento de la zona horaria local en segundos al oeste de UTC
-- time.tzname    # Tupla de nombres de zona horaria (no DST, DST)
-- time.daylight  # Si se define una corrección DST
+
 
 # Libreria datetime 
+## 1. Crear fechas y horas
 
-# Importar la libreria
+- datetime.datetime(year, month, day, hour, minute, second) → Crea un objeto de fecha y
+- hora.datetime.date(year, month, day) → Crea una fecha sin hora.
+- datetime.time(hour, minute, second) → Crea una hora sin fecha.
+
+## 2. Obtener la fecha y hora actual
+- datetime.datetime.now() → Fecha y hora actual.
+- datetime.date.today() → Solo la fecha de hoy.
+- datetime.datetime.utcnow() → Fecha y hora actual en UTC.
+  
+## 3. Formatear fechas y horas
+- strftime(formato) → Convierte datetime a str.
+- strptime(cadena, formato) → Convierte str a datetime.
+
+# 4. Operaciones con fechas
+- timedelta(days, hours, minutes, seconds) → Permite hacer cálculos con fechas.
 
