@@ -8,3 +8,4 @@ pip install findspark
 
 ### ¿Para qué se usa?
 Si Spark no está en las variables de entorno (SPARK_HOME y PYTHONPATH), findspark lo detecta automáticamente y lo configura, permitiendo que puedas usar pyspark sin problemas.
+
