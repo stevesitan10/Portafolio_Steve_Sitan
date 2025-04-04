@@ -1,0 +1,33 @@
+# Forma 1 con libreria time 
+# Muestra el resultado de la siguiente forma 0.500770092010498
+
+````
+import time
+start = time.time()
+
+# Nuestro código
+time.sleep(0.5) #crea un tiempo de espera
+
+end = time.time()
+
+print(end - start)
+
+````
+
+## Forma 2 con libreria datetime 
+# Muestra el resultado de la siguiente forma: 0:00:01.000536
+
+````
+
+from datetime import timedelta
+
+start = time.monotonic()
+
+#nuestro codigo
+time.sleep(1)
+
+end = time.monotonic()
+
+print(timedelta(seconds= end - start))
+
+````
